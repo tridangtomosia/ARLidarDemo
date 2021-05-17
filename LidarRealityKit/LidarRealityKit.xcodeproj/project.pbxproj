@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B3AE7092650ECD900500417 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 0B3AE7082650ECD900500417 /* Preview Content */; };
+		0B3AE70B265162CD00500417 /* RPKitVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3AE70A265162CC00500417 /* RPKitVideo.swift */; };
+		0B4070342648D0EE00F98D13 /* ViewLoaded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4070332648D0EE00F98D13 /* ViewLoaded.swift */; };
+		0B4070362648D1A400F98D13 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4070352648D1A400F98D13 /* ARViewContainer.swift */; };
+		0B4070392648D23E00F98D13 /* SharedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4070382648D23E00F98D13 /* SharedView.swift */; };
+		0B40703B2648D2A400F98D13 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40703A2648D2A400F98D13 /* CustomARView.swift */; };
+		0B40703D2648D31900F98D13 /* ScanARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40703C2648D31900F98D13 /* ScanARView.swift */; };
+		188F75712642290200B4CB14 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F75702642290200B4CB14 /* Extensions.swift */; };
+		18FC03312640FA35008EFE6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC03302640FA35008EFE6D /* AppDelegate.swift */; };
+		18FC03332640FA35008EFE6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC03322640FA35008EFE6D /* ContentView.swift */; };
+		18FC03352640FA35008EFE6D /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 18FC03342640FA35008EFE6D /* Experience.rcproject */; };
+		18FC03372640FA39008EFE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FC03362640FA39008EFE6D /* Assets.xcassets */; };
+		18FC033D2640FA39008EFE6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FC033B2640FA39008EFE6D /* LaunchScreen.storyboard */; };
+		18FC03482640FA39008EFE6D /* LidarRealityKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC03472640FA39008EFE6D /* LidarRealityKitTests.swift */; };
+		18FC03532640FA39008EFE6D /* LidarRealityKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC03522640FA39008EFE6D /* LidarRealityKitUITests.swift */; };
+		A1FC299862465F1902CB4EC7 /* Pods_LidarRealityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E77A5BC2A78AC97FCDB24EC /* Pods_LidarRealityKit.framework */; };
+		B0F321ECDC0278402C2169E0 /* Pods_LidarRealityKit_LidarRealityKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50919B39E9B8DCC475F2E949 /* Pods_LidarRealityKit_LidarRealityKitUITests.framework */; };
+		F0AA03E61C8E324532464641 /* Pods_LidarRealityKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC6DF8F77396C19AECFD9E1 /* Pods_LidarRealityKitTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FC03442640FA39008EFE6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FC03252640FA35008EFE6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FC032C2640FA35008EFE6D;
+			remoteInfo = LidarRealityKit;
+		};
+		18FC034F2640FA39008EFE6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FC03252640FA35008EFE6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FC032C2640FA35008EFE6D;
+			remoteInfo = LidarRealityKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01721D623E59D47EDA72C5EA /* Pods-LidarRealityKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LidarRealityKit.debug.xcconfig"; path = "Target Support Files/Pods-LidarRealityKit/Pods-LidarRealityKit.debug.xcconfig"; sourceTree = "<group>"; };
+		0B3AE7082650ECD900500417 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		0B3AE70A265162CC00500417 /* RPKitVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPKitVideo.swift; sourceTree = "<group>"; };
+		0B4070332648D0EE00F98D13 /* ViewLoaded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoaded.swift; sourceTree = "<group>"; };
+		0B4070352648D1A400F98D13 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		0B4070382648D23E00F98D13 /* SharedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedView.swift; sourceTree = "<group>"; };
+		0B40703A2648D2A400F98D13 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		0B40703C2648D31900F98D13 /* ScanARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanARView.swift; sourceTree = "<group>"; };
+		0E77A5BC2A78AC97FCDB24EC /* Pods_LidarRealityKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LidarRealityKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188F75702642290200B4CB14 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		18FC032D2640FA35008EFE6D /* LidarRealityKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LidarRealityKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FC03302640FA35008EFE6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18FC03322640FA35008EFE6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18FC03342640FA35008EFE6D /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		18FC03362640FA39008EFE6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FC033C2640FA39008EFE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FC033E2640FA39008EFE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FC03432640FA39008EFE6D /* LidarRealityKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LidarRealityKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FC03472640FA39008EFE6D /* LidarRealityKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LidarRealityKitTests.swift; sourceTree = "<group>"; };
+		18FC03492640FA39008EFE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FC034E2640FA39008EFE6D /* LidarRealityKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LidarRealityKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FC03522640FA39008EFE6D /* LidarRealityKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LidarRealityKitUITests.swift; sourceTree = "<group>"; };
+		18FC03542640FA39008EFE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC31E9F9A269B4319511BD8 /* Pods-LidarRealityKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LidarRealityKitTests.release.xcconfig"; path = "Target Support Files/Pods-LidarRealityKitTests/Pods-LidarRealityKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		4FC6DF8F77396C19AECFD9E1 /* Pods_LidarRealityKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LidarRealityKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50919B39E9B8DCC475F2E949 /* Pods_LidarRealityKit_LidarRealityKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LidarRealityKit_LidarRealityKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		798B563C79EE9BC2AB583053 /* Pods-LidarRealityKit-LidarRealityKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LidarRealityKit-LidarRealityKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-LidarRealityKit-LidarRealityKitUITests/Pods-LidarRealityKit-LidarRealityKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5DB487C2279CC7344B0AE5A /* Pods-LidarRealityKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LidarRealityKitTests.debug.xcconfig"; path = "Target Support Files/Pods-LidarRealityKitTests/Pods-LidarRealityKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6C33226C6DF20CC73375635 /* Pods-LidarRealityKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LidarRealityKit.release.xcconfig"; path = "Target Support Files/Pods-LidarRealityKit/Pods-LidarRealityKit.release.xcconfig"; sourceTree = "<group>"; };
+		FAAF857F4DF96EB6D4DF83ED /* Pods-LidarRealityKit-LidarRealityKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LidarRealityKit-LidarRealityKitUITests.release.xcconfig"; path = "Target Support Files/Pods-LidarRealityKit-LidarRealityKitUITests/Pods-LidarRealityKit-LidarRealityKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FC032A2640FA35008EFE6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FC299862465F1902CB4EC7 /* Pods_LidarRealityKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FC03402640FA39008EFE6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AA03E61C8E324532464641 /* Pods_LidarRealityKitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FC034B2640FA39008EFE6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F321ECDC0278402C2169E0 /* Pods_LidarRealityKit_LidarRealityKitUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4070302648D06700F98D13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B4070322648D0A500F98D13 /* SwiftUIVIew */,
+				0B4070312648D07300F98D13 /* UIKitView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B4070312648D07300F98D13 /* UIKitView */ = {
+			isa = PBXGroup;
+			children = (
+				0B4070352648D1A400F98D13 /* ARViewContainer.swift */,
+				0B4070382648D23E00F98D13 /* SharedView.swift */,
+				0B40703A2648D2A400F98D13 /* CustomARView.swift */,
+				0B3AE70A265162CC00500417 /* RPKitVideo.swift */,
+			);
+			path = UIKitView;
+			sourceTree = "<group>";
+		};
+		0B4070322648D0A500F98D13 /* SwiftUIVIew */ = {
+			isa = PBXGroup;
+			children = (
+				0B4070332648D0EE00F98D13 /* ViewLoaded.swift */,
+				0B40703C2648D31900F98D13 /* ScanARView.swift */,
+			);
+			path = SwiftUIVIew;
+			sourceTree = "<group>";
+		};
+		18FC03242640FA35008EFE6D = {
+			isa = PBXGroup;
+			children = (
+				18FC032F2640FA35008EFE6D /* LidarRealityKit */,
+				18FC03462640FA39008EFE6D /* LidarRealityKitTests */,
+				18FC03512640FA39008EFE6D /* LidarRealityKitUITests */,
+				18FC032E2640FA35008EFE6D /* Products */,
+				5417E52DF5BB42570D7FC115 /* Pods */,
+				30BAE0300ABFE26C3875685D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18FC032E2640FA35008EFE6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FC032D2640FA35008EFE6D /* LidarRealityKit.app */,
+				18FC03432640FA39008EFE6D /* LidarRealityKitTests.xctest */,
+				18FC034E2640FA39008EFE6D /* LidarRealityKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FC032F2640FA35008EFE6D /* LidarRealityKit */ = {
+			isa = PBXGroup;
+			children = (
+				188F75702642290200B4CB14 /* Extensions.swift */,
+				18FC03302640FA35008EFE6D /* AppDelegate.swift */,
+				18FC03322640FA35008EFE6D /* ContentView.swift */,
+				0B4070302648D06700F98D13 /* View */,
+				18FC03342640FA35008EFE6D /* Experience.rcproject */,
+				18FC03362640FA39008EFE6D /* Assets.xcassets */,
+				18FC033B2640FA39008EFE6D /* LaunchScreen.storyboard */,
+				18FC033E2640FA39008EFE6D /* Info.plist */,
+				0B3AE7082650ECD900500417 /* Preview Content */,
+			);
+			path = LidarRealityKit;
+			sourceTree = "<group>";
+		};
+		18FC03462640FA39008EFE6D /* LidarRealityKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FC03472640FA39008EFE6D /* LidarRealityKitTests.swift */,
+				18FC03492640FA39008EFE6D /* Info.plist */,
+			);
+			path = LidarRealityKitTests;
+			sourceTree = "<group>";
+		};
+		18FC03512640FA39008EFE6D /* LidarRealityKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18FC03522640FA39008EFE6D /* LidarRealityKitUITests.swift */,
+				18FC03542640FA39008EFE6D /* Info.plist */,
+			);
+			path = LidarRealityKitUITests;
+			sourceTree = "<group>";
+		};
+		30BAE0300ABFE26C3875685D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E77A5BC2A78AC97FCDB24EC /* Pods_LidarRealityKit.framework */,
+				50919B39E9B8DCC475F2E949 /* Pods_LidarRealityKit_LidarRealityKitUITests.framework */,
+				4FC6DF8F77396C19AECFD9E1 /* Pods_LidarRealityKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5417E52DF5BB42570D7FC115 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01721D623E59D47EDA72C5EA /* Pods-LidarRealityKit.debug.xcconfig */,
+				F6C33226C6DF20CC73375635 /* Pods-LidarRealityKit.release.xcconfig */,
+				798B563C79EE9BC2AB583053 /* Pods-LidarRealityKit-LidarRealityKitUITests.debug.xcconfig */,
+				FAAF857F4DF96EB6D4DF83ED /* Pods-LidarRealityKit-LidarRealityKitUITests.release.xcconfig */,
+				B5DB487C2279CC7344B0AE5A /* Pods-LidarRealityKitTests.debug.xcconfig */,
+				1EC31E9F9A269B4319511BD8 /* Pods-LidarRealityKitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FC032C2640FA35008EFE6D /* LidarRealityKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FC03572640FA3A008EFE6D /* Build configuration list for PBXNativeTarget "LidarRealityKit" */;
+			buildPhases = (
+				BBC516FB43F3370924D5D198 /* [CP] Check Pods Manifest.lock */,
+				18FC03292640FA35008EFE6D /* Sources */,
+				18FC032A2640FA35008EFE6D /* Frameworks */,
+				18FC032B2640FA35008EFE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LidarRealityKit;
+			productName = LidarRealityKit;
+			productReference = 18FC032D2640FA35008EFE6D /* LidarRealityKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FC03422640FA39008EFE6D /* LidarRealityKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FC035A2640FA3A008EFE6D /* Build configuration list for PBXNativeTarget "LidarRealityKitTests" */;
+			buildPhases = (
+				961D31484C628E2779672900 /* [CP] Check Pods Manifest.lock */,
+				18FC033F2640FA39008EFE6D /* Sources */,
+				18FC03402640FA39008EFE6D /* Frameworks */,
+				18FC03412640FA39008EFE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FC03452640FA39008EFE6D /* PBXTargetDependency */,
+			);
+			name = LidarRealityKitTests;
+			productName = LidarRealityKitTests;
+			productReference = 18FC03432640FA39008EFE6D /* LidarRealityKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FC034D2640FA39008EFE6D /* LidarRealityKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FC035D2640FA3A008EFE6D /* Build configuration list for PBXNativeTarget "LidarRealityKitUITests" */;
+			buildPhases = (
+				1821AF79BE42C2F384093D50 /* [CP] Check Pods Manifest.lock */,
+				18FC034A2640FA39008EFE6D /* Sources */,
+				18FC034B2640FA39008EFE6D /* Frameworks */,
+				18FC034C2640FA39008EFE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FC03502640FA39008EFE6D /* PBXTargetDependency */,
+			);
+			name = LidarRealityKitUITests;
+			productName = LidarRealityKitUITests;
+			productReference = 18FC034E2640FA39008EFE6D /* LidarRealityKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FC03252640FA35008EFE6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					18FC032C2640FA35008EFE6D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					18FC03422640FA39008EFE6D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18FC032C2640FA35008EFE6D;
+					};
+					18FC034D2640FA39008EFE6D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18FC032C2640FA35008EFE6D;
+					};
+				};
+			};
+			buildConfigurationList = 18FC03282640FA35008EFE6D /* Build configuration list for PBXProject "LidarRealityKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FC03242640FA35008EFE6D;
+			productRefGroup = 18FC032E2640FA35008EFE6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FC032C2640FA35008EFE6D /* LidarRealityKit */,
+				18FC03422640FA39008EFE6D /* LidarRealityKitTests */,
+				18FC034D2640FA39008EFE6D /* LidarRealityKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FC032B2640FA35008EFE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3AE7092650ECD900500417 /* Preview Content in Resources */,
+				18FC033D2640FA39008EFE6D /* LaunchScreen.storyboard in Resources */,
+				18FC03372640FA39008EFE6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FC03412640FA39008EFE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FC034C2640FA39008EFE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1821AF79BE42C2F384093D50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LidarRealityKit-LidarRealityKitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		961D31484C628E2779672900 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LidarRealityKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC516FB43F3370924D5D198 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LidarRealityKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FC03292640FA35008EFE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3AE70B265162CD00500417 /* RPKitVideo.swift in Sources */,
+				0B40703D2648D31900F98D13 /* ScanARView.swift in Sources */,
+				18FC03332640FA35008EFE6D /* ContentView.swift in Sources */,
+				18FC03312640FA35008EFE6D /* AppDelegate.swift in Sources */,
+				0B4070392648D23E00F98D13 /* SharedView.swift in Sources */,
+				0B4070342648D0EE00F98D13 /* ViewLoaded.swift in Sources */,
+				18FC03352640FA35008EFE6D /* Experience.rcproject in Sources */,
+				188F75712642290200B4CB14 /* Extensions.swift in Sources */,
+				0B40703B2648D2A400F98D13 /* CustomARView.swift in Sources */,
+				0B4070362648D1A400F98D13 /* ARViewContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FC033F2640FA39008EFE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FC03482640FA39008EFE6D /* LidarRealityKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FC034A2640FA39008EFE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FC03532640FA39008EFE6D /* LidarRealityKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FC03452640FA39008EFE6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FC032C2640FA35008EFE6D /* LidarRealityKit */;
+			targetProxy = 18FC03442640FA39008EFE6D /* PBXContainerItemProxy */;
+		};
+		18FC03502640FA39008EFE6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FC032C2640FA35008EFE6D /* LidarRealityKit */;
+			targetProxy = 18FC034F2640FA39008EFE6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FC033B2640FA39008EFE6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FC033C2640FA39008EFE6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FC03552640FA3A008EFE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18FC03562640FA3A008EFE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FC03582640FA3A008EFE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01721D623E59D47EDA72C5EA /* Pods-LidarRealityKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LidarRealityKit/Preview Content\"";
+				DEVELOPMENT_TEAM = MPRBVX437J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LidarRealityKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tridang.LidarRealityKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18FC03592640FA3A008EFE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C33226C6DF20CC73375635 /* Pods-LidarRealityKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LidarRealityKit/Preview Content\"";
+				DEVELOPMENT_TEAM = MPRBVX437J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LidarRealityKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tridang.LidarRealityKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18FC035B2640FA3A008EFE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5DB487C2279CC7344B0AE5A /* Pods-LidarRealityKitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPRBVX437J;
+				INFOPLIST_FILE = LidarRealityKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tridang.LidarRealityKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LidarRealityKit.app/LidarRealityKit";
+			};
+			name = Debug;
+		};
+		18FC035C2640FA3A008EFE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EC31E9F9A269B4319511BD8 /* Pods-LidarRealityKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPRBVX437J;
+				INFOPLIST_FILE = LidarRealityKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tridang.LidarRealityKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LidarRealityKit.app/LidarRealityKit";
+			};
+			name = Release;
+		};
+		18FC035E2640FA3A008EFE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798B563C79EE9BC2AB583053 /* Pods-LidarRealityKit-LidarRealityKitUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPRBVX437J;
+				INFOPLIST_FILE = LidarRealityKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tridang.LidarRealityKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LidarRealityKit;
+			};
+			name = Debug;
+		};
+		18FC035F2640FA3A008EFE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAAF857F4DF96EB6D4DF83ED /* Pods-LidarRealityKit-LidarRealityKitUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPRBVX437J;
+				INFOPLIST_FILE = LidarRealityKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tridang.LidarRealityKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LidarRealityKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FC03282640FA35008EFE6D /* Build configuration list for PBXProject "LidarRealityKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FC03552640FA3A008EFE6D /* Debug */,
+				18FC03562640FA3A008EFE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FC03572640FA3A008EFE6D /* Build configuration list for PBXNativeTarget "LidarRealityKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FC03582640FA3A008EFE6D /* Debug */,
+				18FC03592640FA3A008EFE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FC035A2640FA3A008EFE6D /* Build configuration list for PBXNativeTarget "LidarRealityKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FC035B2640FA3A008EFE6D /* Debug */,
+				18FC035C2640FA3A008EFE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FC035D2640FA3A008EFE6D /* Build configuration list for PBXNativeTarget "LidarRealityKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FC035E2640FA3A008EFE6D /* Debug */,
+				18FC035F2640FA3A008EFE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FC03252640FA35008EFE6D /* Project object */;
+}

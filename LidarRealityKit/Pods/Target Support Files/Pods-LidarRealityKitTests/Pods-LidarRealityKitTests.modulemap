@@ -1,0 +1,6 @@
+framework module Pods_LidarRealityKitTests {
+  umbrella header "Pods-LidarRealityKitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
